@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Mercedes-Benz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="bg-dark text-white text-center py-4">
+            <img src="logo1.jpg" alt="Mercedes" class="img-fluid" style="max-width: 200px;">
+            <h1>Mercedes-Benz</h1>
+        </header>
+
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cars.html">Cars</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    
+        <section class="my-5">
+            <h2>Contact Information</h2>
+            <p>For inquiries and assistance, please contact us:</p>
+            <address>
+                <p><strong>Address:</strong> 123 Mercedes Street</p>
+                <p><strong>City:</strong> Bangalore</p>
+                <p><strong>Country:</strong> India</p>
+            </address>
+            <p><strong>Email:</strong> <a href="mailto:contact@mercedes.com">contact@mercedes.com</a></p>
+            <p><strong>Phone:</strong> 0000000000</p>
+        </section>
+
+        <section class="my-5">
+            <h2>Contact Form</h2>
+            <form action="mailto:contact@mercedes.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Mercedes-Benz</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
